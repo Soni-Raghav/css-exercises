@@ -15,7 +15,9 @@ button {
   font-family: Roboto, sans-serif;
   border: none;
   border-radius: 8px;
+  padding:15px;
   background: #eee;
+  margin-bottom: 16px;
 }
 
 input {
@@ -25,3 +27,74 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* latest css modification done here */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    /* flex: 1; */
+    justify-content:space-around;
+    /* align-items: ; */
+}
+.header{
+    
+    top:0;
+    
+    display: flex;
+    justify-content: space-between;
+    flex:initial;
+    
+    align-items: start;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    display: flex;
+    flex:initial;
+    justify-content: space-between;
+    background-color: #eeeeee;
+   
+    
+    
+}
+.left-links{
+    display: flex;
+    justify-content: flex-start;
+    flex:initial;
+    gap:20px;
+    padding:5px;
+    margin-right: 10px;
+}
+.right-links{
+    display: flex;
+    flex:initial;
+    justify-content: flex-end;
+    gap:20px;
+    padding:5px;
+    margin-right: 10px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+
+    align-items: center;
+}
+ .right-links > li{
+    list-style: none;
+    padding:2px;
+ }
+ .left-links > li{
+    list-style:none;
+    padding: 2px;
+ }
+
+ a{
+    text-decoration: none;
+
+    color: black;
+ }
